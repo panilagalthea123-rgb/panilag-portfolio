@@ -1,0 +1,14 @@
+version: 1
+
+project:
+  title: "Althea Panilag — Data Science Portfolio"
+  description: "A personal Data Science portfolio showcasing academic activities, projects, analyses, and visualizations."
+  authors:
+    - name: "Althea Panilag"
+
+  toc:
+    - file: intro.md
+    - file: home-1-1-deep-learning.ipynb
+
+site:
+  template: book-theme

@@ -1,0 +1,35 @@
+# My Data Science Portfolio
+
+## Welcome!
+
+Hello! I am Althea Panilag, a Data Science student building this portfolio as part of DS Elective 4.
+
+This portfolio showcases my Data Science activities, projects, analyses, visualizations, and applications of Data Science throughout my academic journey.
+
+## Data Science Interests
+
+- Data Analysis
+- Machine Learning
+- Deep Learning
+- Data Visualization
+- Artificial Intelligence
+- Statistical Analysis
+
+## Skills and Tools
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- SQL
+- Git and GitHub
+
+## Portfolio
+
+### Home 1.1 — Text Mining Activity: Deep Learning
+
+This activity explores the foundation of deep learning and recent developments in the field.
+
+[View Home 1.1](home-1-1-deep-learning)
