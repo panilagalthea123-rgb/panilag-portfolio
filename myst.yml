@@ -1,14 +1,30 @@
+
 version: 1
 
 project:
-  title: "Althea Panilag — Data Science Portfolio"
+  title: "Althea Panilag Portfolio"
   description: "A personal Data Science portfolio showcasing academic activities, projects, analyses, and visualizations."
   authors:
     - name: "Althea Panilag"
 
   toc:
     - file: intro.md
-    - file: home-1-1-deep-learning.ipynb
+
+    - title: Portfolio
+      children:
+        - file: home-1-1-deep-learning.ipynb
+        - file: lab-activities/lecture-task1.md
+
+    - title: Laboratory Activities
+      children:
+        - file: lab-activities/lab1.md
+        - file: lab-activities/LAB2_PANILAG_.ipynb
+        - file: lab-activities/LAB3_PANILAG.ipynb
+        - file: lab-activities/LAB4_PANILAG.ipynb
+        - file: lab-activities/LAB5_PANILAG.ipynb
+        - file: lab-activities/Laboratory_Exercise_(Model_Inference_on_Custom_Dataset).ipynb
 
 site:
   template: book-theme
+  options:
+    style: custom.css
