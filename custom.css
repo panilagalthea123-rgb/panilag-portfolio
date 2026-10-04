@@ -1,0 +1,78 @@
+
+/* ==================================
+   Althea Panilag - Portfolio Theme
+   Simple, consistent, light/dark mode
+================================== */
+
+/* General page styling */
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Activity cards */
+.activity-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.activity-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  min-height: 78px;
+  padding: 15px 54px 15px 20px;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 6px;
+  background: var(--pst-color-surface);
+  color: var(--pst-color-text-base);
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.activity-card:hover {
+  border-color: var(--pst-color-primary);
+  color: var(--pst-color-text-base);
+  text-decoration: none !important;
+  transform: translateY(-2px);
+}
+
+.activity-label {
+  font-size: 0.75rem;
+  color: var(--pst-color-text-muted);
+}
+
+.activity-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--pst-color-text-base);
+}
+
+.activity-arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+  color: var(--pst-color-text-base);
+}
+
+.activity-card:focus-visible {
+  outline: 2px solid var(--pst-color-primary);
+  outline-offset: 3px;
+}
+
+/* Clean dropdown contents */
+.bd-toc,
+.bd-sidebar-primary {
+  border-radius: 6px;
+}
+
+/* Images and notebook outputs */
+img {
+  max-width: 100%;
+  height: auto;
+}
